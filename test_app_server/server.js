@@ -5,7 +5,7 @@ const cors = require("cors")
 app.use(cors())
 
 app.get("/", function(req, res) {
-  res.send({"name": "Jane Doe"})
+  res.send({"name": "test name"})
 })
 
 
